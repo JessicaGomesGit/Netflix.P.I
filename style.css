@@ -246,7 +246,7 @@ body{
 footer{
     display: flex;
     justify-content: center;
-    gap: 190px;
+    gap: 191px;
     background: rgb(20, 20, 20);
     border: 1px solid rgb(64, 64, 64);
 }
