@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 400px;
+
+
+}
+
+.menu {
+    height: 100%;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 25px;
+
+}
+
+.destaque {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    background-image: url(./img/Filme-Os-Opostos-Sempre-Se-Atraem-768x1075.jpg);
+    background-size: 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.sinopse {
+    height: 100%;
+    background-color: rgba(35, 35, 35, 0.3);
+    padding: 30px 20px 20px 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sinopse span {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    align-items: flex-start;
+    color: yellow;
+
+}
+
+.sinopse p {
+    font-family: 'Work Sans';
+    font-size: 15px;
+    flex-direction: column;
+    color: #131313;
+    font-weight: 700;
+    color: white;
+}
+
+.assistir button {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    font-family: "work sans" solid 2px;
+    border: 1px solid rgb(234, 234, 234);
+    color: #333;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.assistir button:hover {
+    background-color: #fc1722;
+    color: white;
+    border: 1px solid #e50914;
+
+}
+
+.recentemente p {
+    font-family: "work sans";
+    font-size: 20px;
+    color: white;
+}
+
+.recentemente {
+
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0 10px 65px;
+}
+
+.favoritos {
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0 10px 65px;
+  
+
+}
+
+.favoritos p {
+    margin-top: 0;
+    font-family: "work sans";
+    font-size: 20px;
+    color: white;
+
+
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: #141414;
+    justify-content: space-between;
+    font-family: "work sans";
+}
+
+.info-rodape {
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.info-rodape h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.input-rodape {
+    margin-top: 50px;
+}
+
+.input-rodape input {
+    background-color: transparent;
+    border-width: 0 0 1px;
+    border-color: white;
+    width: 300px;
+    padding: 5px;
+    margin-right: 20px;
+
+}
+
+.input-rodape button {
+    cursor: pointer;
+    font-family: "work sans";
+    font-size: 15px;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 14px;
+    border: 1px solid white;
+    color: white;
+}
