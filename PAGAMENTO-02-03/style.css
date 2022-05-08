@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    border-bottom: 1px rgb(184, 181, 181) solid;
+}
+
+.conteudo-01{
+    margin-top: 30px;
+    margin-left: 200px;
+    
+}
+
+.P-1{
+    margin-bottom: 13px;
+    font-size: 20px;
+}
+
+.paragrafo{
+    margin-top: 30px;
+    margin-left: 257px;
+}
+
+.paragrafo-texto{
+    margin-bottom: 8px;
+    color: rgb(0, 0, 0);
+}
+
+.baloes{
+  
+    display: flex;
+    justify-content: center;
+    margin-left: 192px;
+    gap: 40px;
+  
+}
+
+.balao{
+    display: flex;
+    justify-content: center;
+	background: rgb(255, 0, 0);
+	border-radius: 15px;
+	width: 100px;
+	height: 85px;
+    
+	
+}
+
+
+.nomes{
+    margin-top: 30px;
+    color: white;
+    
+}
+
+.preco{
+    display: flex;
+    margin-left: 253px;
+    margin-top: 50px;
+    
+    
+}
+
+.preco-03{
+   position: absolute;
+   right: 420px;
+   
+}
+
+.preco-02{
+    position: absolute;
+    right: 550px;
+    
+ }
+
+ .preco-01{
+    position: absolute;
+    right: 689px;
+ }
+
+ hr{
+     width: 700px;
+     text-align: center;
+     margin-left: 250px;
+     margin-top: 12px;
+ }
+
+ .botao{ 
+     margin-top: 30px;
+     display: flex;
+     margin-left: 550px;
+     margin-bottom: 30px;
+     
+ }
+
+button{
+    background: red;
+    width: 180px;
+    height: 40px;
+    border: none;
+    color:white;
+    font-size: 20px;
+}
