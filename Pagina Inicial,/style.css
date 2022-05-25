@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+   
   
 }
 
 body{
     font-family: sans-serif;
     color: white;
+
 }
 
 .cabecalho{
@@ -225,7 +227,7 @@ body{
 .container-04{
     margin-top: 120px;
     border: 1px  solid rgb(0, 0, 0);
-    max-height: 100px;
+  
    
 }
 
@@ -241,6 +243,7 @@ body{
 .paragrafo-04{
     max-width: 400px;
     font-size: 18px;
+   
 }
 
 footer{
@@ -249,6 +252,8 @@ footer{
     gap: 191px;
     background: rgb(20, 20, 20);
     border: 1px solid rgb(64, 64, 64);
+
+   
 }
 
 .infor-01{
@@ -287,3 +292,5 @@ h3{
 .infor-03{
     margin-top: 35px;
 }
+
+
