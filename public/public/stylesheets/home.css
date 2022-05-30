@@ -41,7 +41,7 @@ body{
 
 .main{
     height: 470px;
-    background: url("./IMAGENS/Filmes.png") ;
+    background: url("../images/Filmes.png") ;
     display: flex;
     justify-content: center;
     align-items: center;
