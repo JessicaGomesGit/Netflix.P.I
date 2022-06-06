@@ -30,6 +30,7 @@ app.use('/destaque', usersRouter);
 app.use('/pagamento1', usersRouter);
 app.use('/pagamento2', usersRouter);
 app.use('/pagamento3', usersRouter);
+app.use('/admin', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
