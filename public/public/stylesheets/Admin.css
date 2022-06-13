@@ -1,0 +1,51 @@
+body {
+    background: rgb(4, 4, 4);
+    font-family: 'Rose sans';
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom:1px solid #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.filmes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:#f8f8f8;
+    border-radius: 5px;
+    color: #000;
+}
+
+       
+
+
+button{
+    background-color: rgb(144, 5, 5);
+    gap: 400px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    color:#f8f8f8;
+    width: 150px;  
+    height: 30px;
+    
+}
+.botoes2{
+justify-content:flex-end
+}
