@@ -71,9 +71,18 @@ header .logo img {
         flex-wrap: wrap;
         justify-content: space-between;
 
-    
+
+
     
     }
+    .usuario{
+        width:40px;
+        height: 40px;
+        display: flex;
+
+    }
+
+
     .navigation li a {
         color: #fff;
         text-decoration: none;

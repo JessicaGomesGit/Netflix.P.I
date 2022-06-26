@@ -6,5 +6,6 @@ const controller = require("../controllers/PerfilController");
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
- router.get("/perfil", controller.index )
+
+router.get("/perfil", controller.index )
 module.exports = router;

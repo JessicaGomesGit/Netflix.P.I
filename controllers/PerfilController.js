@@ -1,8 +1,8 @@
-const controller = {
+const Perfilcontroller = {
     index: (req, res)=> {
         res.render("perfil", {title: " de Perfil"})
       },
 
 }
 
-module.exports = controller
+module.exports = Perfilcontroller
