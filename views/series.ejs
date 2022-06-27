@@ -1,30 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
-    <link rel="stylesheet" href="../public/stylesheets/series.css">
-    <link rel="shortcut icon" href="../public/images/favicon.png" type="image/png">
+    <%-include('partials/head')%>
 </head>
  <header>
-        <a href="#" class="logo"><img src="../public/images/logo.png"></a>
-        <ul class="navigation">
-            <li><a href="#">Filmes </a></li>
-            <li><a href="#">Séries</a></li>
-            <li><a href="#">Kids</a></li>
-            <li><a href="#">Assistir depois </a></li>
-        </ul>
-        <div class="search">
-            <input type="text" placeholder="Search">
-            <i class="fas fa-search"></i>
-        </div>
+    <%-include('partials/header')%>
 
-        <div class="usuario"><img src="../public/images/avatar-jessica.png">
-            <p>@jessica</p>
-    
-        </div>
 
     </header>
 
@@ -53,20 +34,7 @@
 </body>
 
 <footer class="rodape">
-    <div class="info-rodape">
-        <h1>Fique Conectado </h1>
-        <p>De clássicos cult a obras-primas modernas.<br>
-            Fique atualizado com os últimos filmes, notícias e artigos da netflix</p>
-            <div class="input-rodape">
-                <input type="text" placeholder="E-mail">
-                <button> Enviar</button>
-
-            </div>
-    </div>
-    <div class="img-rodape">
-       
-
-    </div>
+    <%-include('partials/footer')%>
 
 
 
