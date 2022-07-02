@@ -25,9 +25,11 @@ router.get("/pagamento2", controllerPagamento2.index )
 router.get("/pagamento3", controllerPagamento3.index )
 
 router.get ("/filmes" , controllerFilmes.index ) 
+router.get ("/filmes/minha-lista/:idFilme/:idUsuario" , controllerFilmes.addFavorito ) 
 
 router.get("/series", seriesController.index )
 
 router.get("/perfil" , Perfilcontroller.index )
+
 
 module.exports = router;
