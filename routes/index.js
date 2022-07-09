@@ -28,6 +28,8 @@ router.get ("/filmes" , controllerFilmes.index )
 router.get ("/filmes/minha-lista/:idFilme/:idUsuario" , controllerFilmes.addFavorito ) 
 
 router.get("/series", seriesController.index )
+router.get ("/series/minha-lista/:idSerie/:idUsuario" , seriesController.addFavorito ) 
+
 
 router.get("/perfil" , Perfilcontroller.index )
 
