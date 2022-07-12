@@ -12,6 +12,19 @@
             "name": "localhost",
             "database": "filmes_e_series",
             "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "database": "cadastro",
+            "name": "root",
+            "username": "root"
         }
     ]
 }
