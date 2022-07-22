@@ -1,7 +1,7 @@
 const config = {
 
     username: 'root',
-    password: 'root',
+    password: '',
     database: 'netflix',
     host: 'localhost',
     dialect: 'mysql'
