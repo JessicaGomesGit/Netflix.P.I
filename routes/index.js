@@ -9,7 +9,8 @@ const controllerPagamento3 = require("../controllers/PagamentoController3");
 const controllerFilmes = require('../controllers/Filmes1Controller');
 const seriesController = require("../controllers/seriesController");
 const Perfilcontroller = require ("../controllers/PerfilController");
-
+const series2Controller = require ("../controllers/series2controller");
+const filmesApiController = require ("../controllers/filmesApiController");
 /* GET home page. */
 
 router.get("/", controller.index )
@@ -30,6 +31,8 @@ router.get ("/filmes/minha-lista/:idFilme/:idUsuario" , controllerFilmes.addFavo
 router.get("/series", seriesController.index )
 router.get ("/series/minha-lista/:idSerie/:idUsuario" , seriesController.addFavorito ) 
 
+router.get("/api/series", series2Controller.index )
+router.get("/api/filmes", filmesApiController.index )
 
 router.get("/perfil" , Perfilcontroller.index )
 

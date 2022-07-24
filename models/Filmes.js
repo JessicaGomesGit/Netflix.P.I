@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataType) => {
-    const Serie = sequelize.define('Serie', {
+    const Filme = sequelize.define('Filme', {
         id: {
             type: DataType.INTEGER.UNSIGNED,
             primaryKey: true,
@@ -34,9 +34,9 @@ module.exports = (sequelize, DataType) => {
 
 
     }, {
-        tableName: 'series',
+        tableName: 'filmes',
         timestamps: false
     })
 
-    return Serie
+    return Filme
 }
