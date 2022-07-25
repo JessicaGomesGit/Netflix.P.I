@@ -32,7 +32,7 @@ router.get("/series", seriesController.index )
 router.get ("/series/minha-lista/:idSerie/:idUsuario" , seriesController.addFavorito ) 
 
 router.get("/api/series", series2Controller.index )
-router.get("/api/filmes", filmesApiController.index )
+router.get("/api/filmes", filmesApiController.getFilmes )
 
 router.get("/perfil" , Perfilcontroller.index )
 

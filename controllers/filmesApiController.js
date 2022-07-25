@@ -1,14 +1,8 @@
-const { Filme } = require('../models')
+let db = require('../models/Filmes');
+let apiController = {
+  getFilmes: function (req, res) {
+    res.json("bem vindo")
+  },
 
-const controllerApi = {
-  index: async (req, res, next) => {
-    try {
-      const filmes = await Filme.findAll()
-       res.json(filmes);
-    } catch (err) {
-      console.log(err);
-    }
-  }
 }
-
-module.exports = controllerApi
+module.exports = apiController;
