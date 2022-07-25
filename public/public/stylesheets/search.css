@@ -98,5 +98,27 @@ body{
 }
 
 
+.pesquisa{
+    
+    display: flex;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 25px;
+    padding-top: 30px ;
 
 
+}
+
+
+.imagem-centro{
+    display: flex;
+
+    padding-top:18px;
+}
+
+.nome-filme{
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
