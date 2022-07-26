@@ -34,6 +34,7 @@ app.use('/pagamento3', usersRouter);
 app.use('/Filmes', usersRouter);
 app.use('/Series', usersRouter);
 app.use('/perfil', usersRouter);
+app.use('/search', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
