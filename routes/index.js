@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 let auth = require('../Middleware/auth');
 const controller = require("../controllers/HomeController");
-const controllerLogin = require("../controllers/LoginController")
 const controllerDestaque = require("../controllers/DestaqueController")
 const controllerPagamento = require("../controllers/PagamentoController1");
 const controllerPagamento2 = require("../controllers/PagamentoController2");
@@ -16,7 +15,6 @@ const searchController = require ("../controllers/searchController")
 
 router.get("/", controller.index )
 
-router.get("/login", controllerLogin.index )
 
 router.get("/destaque", controllerDestaque.index )
 
