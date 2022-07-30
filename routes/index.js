@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+let auth = require('../Middleware/auth');
 const controller = require("../controllers/HomeController");
 const controllerLogin = require("../controllers/LoginController")
 const controllerDestaque = require("../controllers/DestaqueController")
